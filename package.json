@@ -1,0 +1,24 @@
+{
+  "name": "vite-openlogin-issue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@toruslabs/openlogin": "^1.6.0",
+    "@toruslabs/openlogin-ed25519": "^1.6.0",
+    "install": "^0.13.0",
+    "rollup-plugin-polyfill-node": "^0.8.0",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.2",
+    "vite": "^2.8.4",
+    "webpack": "^4.19.1",
+    "@babel/runtime": "^7.17.8"
+  }
+}
+
